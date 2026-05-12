@@ -4,7 +4,7 @@ A modular EEG-based seizure detection pipeline with gamma-power analysis and pos
 
 <p align="left">
   <!-- Release -->
-  <img src="https://img.shields.io/github/v/release/ShanJiangEmugen/seizure-detection-toolkit?color=blue&label=Release&style=flat-square" />
+  <img src="https://img.shields.io/github/v/release/ShanJiangEmugen/seizure-detection-toolkit?include_prereleases&style=flat-square" />
   <!-- License -->
   <img src="https://img.shields.io/github/license/ShanJiangEmugen/seizure-detection-toolkit?style=flat-square" />
   <!-- Issues -->
