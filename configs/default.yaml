@@ -1,0 +1,33 @@
+input_dir: "EDF"
+output_dir: "outputs"
+output_events_csv: "all_seizure_tracked.csv"
+output_summary_csv: "animal_summary.csv"
+
+channel: null
+
+groups:
+  - "A"
+  - "B"
+  - "C"
+
+baseline:
+  method: "nth_edf"
+  nth_index: 1
+
+detector:
+  gamma_band: [20.0, 50.0]
+  win_sec: 1.0
+  step_sec: 1.0
+  thr_sd: 3.0
+  min_excursion_sec: 5.0
+  pis_search_sec: 90.0
+  min_pis_sec: 6.0
+  pis_ratio: 100.0
+
+  enable_peak_mask: true
+  peak_thr: 0.0015
+  recover_thr: null
+  stable_sec: 0.2
+  max_expand_sec: 2.0
+  merge_gap_sec: 0.05
+  nan_max_frac: 0.2
